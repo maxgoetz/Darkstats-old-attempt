@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Create Todo!</title>
+        <link rel='stylesheet' href='/static/bootstrap.min.css'>
+        <link rel='stylesheet' href='/static/styles.css'>
+    </head>
+    <body>
+        <!-- navigation bar -->
+    <nav class="navbar navbar-expand">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/"><img class="logo" src="/static/logo.png" alt="logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/create-todo">Tracker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/view-todo-list">Analytics</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <form method="post">
+            <label for="player">Choose Seven Players:</label>
+
+            <select name="players" id="player" multiple>
+              <option value="Thomas Harley">Thomas Harley</option>
+              <option value="Jon Su">Jon Su</option>
+              <option value="Liam Searles-Bohs">Liam Searles-Bohs</option>
+              <option value="Andrew Li">Andrew Li</option>
+              <option value="Jason Manning">Jason Manning</option>
+              <option value="Max Goetz">Max Goetz</option>
+              <option value="Walker Garrett">Walker Garrett</option>
+              <option value="Hawthorne Hamm">Hawthorne Hamm</option>
+              <option value="Ben Dameron">Ben Dameron</option>
+              <option value="Luke Duan">Luke Duan</option>
+              <option value="Jack McCleary">Jack McCleary</option>
+              <option value="Bodhi Harmony">Bodhi Harmony</option>
+              <option value="Rutledge Smith">Rutledge Smith</option>
+              <option value="Wesley Britt">Wesley Britt</option>
+              <option value="Jake Schwartz">Jake Schwartz</option>
+              <option value="Frederick Huang">frederick huang</option>
+              <option value="tom will">tom will</option>
+              <option value="Jayden Feagans">Jayden Feagans</option>
+              <option value="Matthew McKnight">Matthew McKnight</option>
+              <option value="Kevin Pignone">Kevin Pignone</option>
+              <option value="Bailey Roberts ">Bailey Roberts </option>
+              <option value="Grayson Trowbridge">Grayson Trowbridge</option>
+              <option value="Eli Fried">Eli Fried</option>
+              <option value="John McDonnell">John McDonnell</option>
+              <option value="Aaron Wei">Aaron Wei</option>
+              <option value="Henry Chen">Henry Chen</option>
+            
+            </select>
+            <br />
+            <br />
+            <input type="submit" name="stat" value="Create">
+        </form>
+    </body>
+</html>

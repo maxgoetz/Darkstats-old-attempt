@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="playerbutton">
+    <form method="get">
+        <select name="player" id="player">
+        {% for i in player %}
+
+          <option value=player 1>{{i}}</option>
+
+        {% endfor %}
+    </select>
+    </form>
+    </div>
+
+    <div>
+        <form method="POST">
+            <input type="submit" name="stat" value="Score">
+            <input type="submit" name="stat" value="Assist">
+            <input type="submit" name="stat" value="Block">
+            <input type="submit" name="stat" value="Turnover">
+            <input type="submit" name="stat" value="Drops">
+        </form>
+
+
+    </div>
+</html>
